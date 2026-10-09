@@ -34,7 +34,7 @@ Python, pandas, NumPy, Matplotlib, Jupyter.
 ## Reproduce
 
 1. Download the monthly Job Bank posting files from the Government of Canada's open data portal and put them in one folder (check the dataset's licence and credit it).
-2. Open `DA_Job_Market_Analysis.ipynb`, set `data_folder` to that folder, and run the cells in order.
+2. Open `DA_Job_Market_Analysis (1).ipynb`, set `data_folder` to that folder, and run the cells in order.
 
 ## Data source
 
