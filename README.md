@@ -8,6 +8,15 @@ Do Data Analyst job postings in Canada rise or fall over time, and what should w
 - **Postings look flat, not trending.** Over the last 12 months (Sep 2025 to Aug 2026) the average was about 22 postings per month in total (std 6.2) and about 9 excluding the pool title (std 3.5). One spike (March 2026) came from a campaign.
 - **Simple beat clever in the backtest.** Holding out the last 4 months, "repeat the last month" had the lowest error for Total (MAE 1.5) and "average of past months" for Other_DA (MAE 2.0). A fitted trend line did worst (MAE 6.4 and 7.7).
 - **Forecast, Sep to Dec 2026:** about 21 postings per month in total (normal range roughly 15 to 27) and about 9 excluding the pool title (roughly 6 to 13).
+- **Salary as a demand signal (exploratory)
+
+Idea: if advertised pay falls, it could point to falling demand or rising candidate supply, so pay might act as a demand signal.
+
+- Standardised pay: midpoint of minimum and maximum per posting, converted to annual (hourly x 1,950 hours, monthly x 12, bi-weekly x 26).
+- Removed one clear outlier (about $5,300/hour, roughly $5.2M annualised) that distorted the monthly average.
+- On the first 11 months, average advertised pay rose slightly (about +$200/month), but part of this was a shift in title mix toward higher-paying "business data analyst" postings, so it should not be read as genuine wage growth.
+- Experience level was about 82% missing, so seniority could not be controlled for.
+- Not yet rerun on all 20 months.
 
 ## Method
 
